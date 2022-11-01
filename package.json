@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "web-dev-server --config web-dev-server.config.js",
-		"build": "rollup -c"
+		"build": "rollup -c",
+		"deploy": "gh-pages -d dist"
 	},
 	"keywords": [],
 	"author": "Leonardo Fonseca <cavera.de@gmail.com>",
